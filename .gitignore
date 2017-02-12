@@ -2,3 +2,8 @@
 .settings
 salesforce.schema
 Referenced Packages
+LICENSE
+README.md
+src/objects/AssistantProgress.object
+src/objects/UserProvisioningRequest.object
+src/package.xml
