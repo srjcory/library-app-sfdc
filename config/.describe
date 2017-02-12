@@ -416,27 +416,6 @@
             "xmlName": "CallCenter"
         },
         {
-            "directoryName": "milestoneTypes",
-            "inFolder": false,
-            "metaFile": false,
-            "suffix": "milestoneType",
-            "xmlName": "MilestoneType"
-        },
-        {
-            "directoryName": "entitlementProcesses",
-            "inFolder": false,
-            "metaFile": false,
-            "suffix": "entitlementProcess",
-            "xmlName": "EntitlementProcess"
-        },
-        {
-            "directoryName": "entitlementTemplates",
-            "inFolder": false,
-            "metaFile": false,
-            "suffix": "entitlementTemplate",
-            "xmlName": "EntitlementTemplate"
-        },
-        {
             "directoryName": "connectedApps",
             "inFolder": false,
             "metaFile": false,
@@ -456,23 +435,6 @@
             "metaFile": true,
             "suffix": "site",
             "xmlName": "SiteDotCom"
-        },
-        {
-            "directoryName": "networks",
-            "inFolder": false,
-            "metaFile": false,
-            "suffix": "network",
-            "xmlName": "Network"
-        },
-        {
-            "childXmlNames": [
-                "ManagedTopic"
-            ],
-            "directoryName": "managedTopics",
-            "inFolder": false,
-            "metaFile": false,
-            "suffix": "managedTopics",
-            "xmlName": "ManagedTopics"
         },
         {
             "directoryName": "samlssoconfigs",

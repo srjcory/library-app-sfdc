@@ -86,6 +86,19 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Publisher__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Publisher</label>
+        <referenceTo>Publisher__c</referenceTo>
+        <relationshipLabel>Authors</relationshipLabel>
+        <relationshipName>Authors</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <label>Author</label>
     <listViews>
         <fullName>All</fullName>
