@@ -4,7 +4,6 @@
     <description>Library app for managing your books and lending.</description>
     <label>Library</label>
     <tabs>standard-home</tabs>
-    <tabs>standard-Feed</tabs>
     <tabs>Book__c</tabs>
     <tabs>Author__c</tabs>
     <tabs>Publisher__c</tabs>
