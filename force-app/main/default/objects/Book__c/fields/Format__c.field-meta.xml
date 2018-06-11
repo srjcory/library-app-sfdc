@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Format__c</fullName>
+    <externalId>false</externalId>
+    <label>Format</label>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Audiobook</fullName>
+                <default>false</default>
+                <label>Audiobook</label>
+            </value>
+            <value>
+                <fullName>E-Book</fullName>
+                <default>false</default>
+                <label>E-Book</label>
+            </value>
+            <value>
+                <fullName>Hardcover</fullName>
+                <default>false</default>
+                <label>Hardcover</label>
+            </value>
+            <value>
+                <fullName>Paperback</fullName>
+                <default>false</default>
+                <label>Paperback</label>
+            </value>    
+        </valueSetDefinition>
+    </valueSet>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+</CustomField>
