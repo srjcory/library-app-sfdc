@@ -3,26 +3,32 @@
     <fullName>Format__c</fullName>
     <externalId>false</externalId>
     <label>Format</label>
-    <picklist>
-        <picklistValues>
-            <fullName>Audiobook</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>E-Book</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>Hardcover</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>Paperback</fullName>
-            <default>false</default>
-        </picklistValues>
-        <restrictedPicklist>true</restrictedPicklist>
-        <sorted>false</sorted>
-    </picklist>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Audiobook</fullName>
+                <default>false</default>
+                <label>Audiobook</label>
+            </value>
+            <value>
+                <fullName>E-Book</fullName>
+                <default>false</default>
+                <label>E-Book</label>
+            </value>
+            <value>
+                <fullName>Hardcover</fullName>
+                <default>false</default>
+                <label>Hardcover</label>
+            </value>
+            <value>
+                <fullName>Paperback</fullName>
+                <default>false</default>
+                <label>Paperback</label>
+            </value>    
+        </valueSetDefinition>
+    </valueSet>
     <required>true</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

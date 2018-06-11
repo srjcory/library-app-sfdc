@@ -3,11 +3,11 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <description>Library app for managing your books and lending.</description>
     <label>Library</label>
-    <tab>standard-home</tab>
-    <tab>standard-Feed</tab>
-    <tab>Book__c</tab>
-    <tab>Author__c</tab>
-    <tab>Publisher__c</tab>
-    <tab>standard-report</tab>
-    <tab>standard-AppLauncher</tab>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>Author__c</tabs>
+    <tabs>Publisher__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-AppLauncher</tabs>
 </CustomApplication>
