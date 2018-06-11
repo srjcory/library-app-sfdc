@@ -1,0 +1,32 @@
+{
+  "name": "library-app-sfdc",
+  "scripts": {
+  },
+  "env": {
+    "DEV_HUB_SFDX_AUTH_URL": {
+      "required": true
+    },
+    "SFDX_AUTH_URL": {
+      "required": true
+    },
+    "SFDX_BUILDPACK_DEBUG": {
+      "required": true
+    },
+    "STAGE": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/wadewegner/salesforce-cli-buildpack#v3"
+    },
+    {
+      "url": "https://github.com/wadewegner/salesforce-dx-buildpack#v3"
+    }
+  ]
+}
